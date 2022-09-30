@@ -29,5 +29,6 @@ RUN mkdir -p /var/lib/postgresql-static/data
 RUN chown -R postgres:postgres /var/lib/postgresql-static
 ENV PGDATA /var/lib/postgresql-static/data
 
+
 #COPY ./pg_hba.conf /var/lib/postgresql-static/data
 #COPY ./postgresql.conf /var/lib/postgresql-static/data
